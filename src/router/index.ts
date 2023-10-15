@@ -5,6 +5,7 @@ import RegisterView from '@/views/RegisterView.vue'
 import GridView from '@/views/GridView.vue'
 import PageNotFoundView from '@/views/PageNotFoundView.vue'
 import SingleView from '@/views/SingleView.vue'
+import ProfileView from '@/views/RestaurantView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -33,6 +34,11 @@ const router = createRouter({
       path: '/single',
       name: 'single',
       component: SingleView
+    },
+    {
+      path: '/profile',
+      name: 'profile',
+      component: ProfileView
     },
     { path: '/:catchAll(.*)', 
       component: PageNotFoundView

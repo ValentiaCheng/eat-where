@@ -55,6 +55,7 @@
                     <!-- Dropdown End -->
                 </li>
                 <li><a href="/#support" class="xl">Support</a></li>
+                <li><a href="/profile" class="xl">Profile</a></li>
                 </ul>
             </nav>
 
