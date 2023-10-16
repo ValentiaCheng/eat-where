@@ -7,6 +7,7 @@ import PageNotFoundView from '@/views/PageNotFoundView.vue'
 import SingleView from '@/views/SingleView.vue'
 import ProfileView from '@/views/ProfileView.vue'
 import LocationView from "@/views/LocationView.vue"
+import BookmarkView from '@/views/BookmarkView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -45,6 +46,11 @@ const router = createRouter({
       path: '/profile',
       name: 'profile',
       component: ProfileView
+    },
+    {
+      path: '/bookmark',
+      name: 'bookmark',
+      component: BookmarkView
     },
     { path: '/:catchAll(.*)', 
       component: PageNotFoundView
