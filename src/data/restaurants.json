@@ -1,0 +1,115 @@
+{
+    "restaurants": [
+      {
+        "id": 1,
+        "name": "Orchard Green",
+        "location": "23 Orchard Rd, Singapore",
+        "details": "A contemporary bistro with a range of traditional and modern dishes.",
+        "imageUrl": "src/assets/images/blog-01.png",
+        "owner": "John Doe",
+        "dateAdded": "25 Dec, 2025",
+        "bookmark": true,
+        "category": ["Western", "Chicken"]
+      },
+      {
+        "id": 2,
+        "name": "Marina Delights",
+        "location": "Marina Bay, Singapore",
+        "details": "A seafood haven for enthusiasts, offering views of the iconic Marina Bay Sands.",
+        "imageUrl": "src/assets/images/blog-01.png",
+        "owner": "Jane Smith",
+        "dateAdded": "20 Oct, 2025",
+        "bookmark": false,
+        "category": ["Seafood", "Sushi"]
+      },
+      {
+        "id": 3,
+        "name": "Chinatown Feast",
+        "location": "Chinatown, Singapore",
+        "details": "Experience the rich flavors of traditional Chinese cuisine.",
+        "imageUrl": "src/assets/images/blog-01.png",
+        "owner": "Liam Tan",
+        "dateAdded": "15 Nov, 2025",
+        "bookmark": true,
+        "category": ["Chinese", "Noodles"]
+      },
+      {
+        "id": 4,
+        "name": "Little India Spice",
+        "location": "Little India, Singapore",
+        "details": "Savor the spicy and aromatic dishes of India.",
+        "imageUrl": "src/assets/images/blog-01.png",
+        "owner": "Aanya Patel",
+        "dateAdded": "5 Oct, 2025",
+        "bookmark": false,
+        "category": ["Indian", "Spicy", "Curry"]
+      },
+      {
+        "id": 5,
+        "name": "Sentosa Island Grill",
+        "location": "Sentosa Island, Singapore",
+        "details": "Beachfront restaurant with a variety of grills and beverages.",
+        "imageUrl": "src/assets/images/blog-01.png",
+        "owner": "Maxwell Gates",
+        "dateAdded": "10 Oct, 2025",
+        "bookmark": true,
+        "category": ["Grill", "Beef", "Cocktails"]
+      },
+      {
+        "id": 6,
+        "name": "Botanic Vegan",
+        "location": "Singapore Botanic Gardens",
+        "details": "Delightful vegan options amidst the serenity of the gardens.",
+        "imageUrl": "src/assets/images/blog-01.png",
+        "owner": "Emily Greene",
+        "dateAdded": "22 Sep, 2025",
+        "bookmark": false,
+        "category": ["Vegan", "Salads"]
+      },
+      {
+        "id": 7,
+        "name": "Hawker's Paradise",
+        "location": "Lavender, Singapore",
+        "details": "A variety of local hawker favorites in one place.",
+        "imageUrl": "src/assets/images/blog-01.png",
+        "owner": "Benjamin Koh",
+        "dateAdded": "12 Aug, 2025",
+        "bookmark": true,
+        "category": ["Local", "Variety"]
+      },
+      {
+        "id": 8,
+        "name": "East Coast Eats",
+        "location": "East Coast Park, Singapore",
+        "details": "Beachside snacks and meals to enjoy with the sea breeze.",
+        "imageUrl": "src/assets/images/blog-01.png",
+        "owner": "Sophie Lim",
+        "dateAdded": "5 Jul, 2025",
+        "bookmark": false,
+        "category": ["Snacks", "Pastries"]
+      },
+      {
+        "id": 9,
+        "name": "Downtown Deli",
+        "location": "Downtown Core, Singapore",
+        "details": "A fine selection of sandwiches, soups, and salads.",
+        "imageUrl": "src/assets/images/blog-01.png",
+        "owner": "Oscar Fernandez",
+        "dateAdded": "15 Jun, 2025",
+        "bookmark": true,
+        "category": ["Deli", "Sandwiches"]
+      },
+      {
+        "id": 10,
+        "name": "Riverside Gourmet",
+        "location": "Clarke Quay, Singapore",
+        "details": "Elegant dining with views of the Singapore River.",
+        "imageUrl": "src/assets/images/blog-01.png",
+        "owner": "Natalie Wong",
+        "dateAdded": "3 Jun, 2025",
+        "bookmark": false,
+        "category": ["Gourmet", "Fine Dining", "Wine"]
+      }
+    ]
+  }
+  
