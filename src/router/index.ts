@@ -5,7 +5,8 @@ import RegisterView from '@/views/RegisterView.vue'
 import GridView from '@/views/GridView.vue'
 import PageNotFoundView from '@/views/PageNotFoundView.vue'
 import SingleView from '@/views/SingleView.vue'
-import ProfileView from '@/views/RestaurantView.vue'
+import ProfileView from '@/views/ProfileView.vue'
+import LocationView from "@/views/LocationView.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,6 +35,11 @@ const router = createRouter({
       path: '/single',
       name: 'single',
       component: SingleView
+    },
+    {
+      path: '/location',
+      name: 'location',
+      component: LocationView
     },
     {
       path: '/profile',

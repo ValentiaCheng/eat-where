@@ -23,7 +23,7 @@
         <div class="bb ze ki xn 2xl:ud-px-0">
           <div class="tc _o">
             <div class="animate_left jn/2">
-              <h1 class="fk vj zp or kk wm wb">We spegcialize in UI/UX, Web Development, Digital Marketing.</h1>
+              <h1 class="fk vj zp or kk wm wb">We specialize in UI/UX, Web Development, Digital Marketing.</h1>
               <p class="fq">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla magna mauris. Nulla fermentum viverra sem eu rhoncus consequat varius nisi quis, posuere magna.
               </p>
