@@ -101,9 +101,12 @@ onBeforeUnmount(() => {
               <!-- Dropdown End -->
             </li>
             <li><a href="/location" class="xl">Location</a></li>
+            <li><a href="/#support" class="xl">Support</a></li>
+                <li><a href="/bookmark" class="xl">bookmark</a></li>
             <li><a href="/profile" class="xl">Profile</a></li>
           </ul>
-        </nav>
+       
+            </nav>
 
         <div class="tc wf ig pb no">
           <a href="/login" :class="{ 'lk gh dk rg tc wf xf _l gi hi': currentRouteName == 'login' }">Login</a>
