@@ -1,24 +1,32 @@
 <script setup lang="ts">
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
-import RestaurantItem from '@/components/RestaurantItem.vue';
+import BookmarkRestaurantItem from '@/components/BookmarkRestaurantItem.vue';
 import restaurantsData from '@/data/restaurants.json'; // Adjust this path to where your data resides
 
+
 const restaurants = restaurantsData.restaurants;  // This should directly give you the array of restaurants
+
 </script>
 
 <template>
   <Header />
   <main>
     <section class="ji gp uq">
-      <div class="bb ye ki xn vq jb jo">
-        <div class="wc qf pn xo zf iq">
-          <RestaurantItem 
-            v-for="restaurant in restaurants" 
+      <div>
+        <input type="button" id="btn" value="By Order"/>
+        <input type="button" id="btn" value="Nearest"/>
+      </div>
+    </section>
+    <section class="bb ye ki xn vq jb jo">
+      <div class="wc zf iq my-grid" >
+        <!-- <div class="flex flex-wrap"> -->
+          <BookmarkRestaurantItem 
+            v-for="restaurant in restaurants"
             :key="restaurant.id"
-            :restaurant="restaurant"
+            :restaurant="restaurant" 
           />
-        </div>
+        <!-- </div> -->
       </div>
     </section>
     <!-- Rest of your template... -->
@@ -45,3 +53,17 @@ const restaurants = restaurantsData.restaurants;  // This should directly give y
   <Footer />
 </template>
 
+<style scoped>
+    @media (min-width: 640px) {
+    .my-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 639px) {
+    .my-grid {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+ 
+</style>
