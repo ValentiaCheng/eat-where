@@ -2,7 +2,7 @@
 
 <template>
   <button
-    class="scroll-button" @click="sendValueToParent">{{category}}</button>
+    class="scroll-button bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded-full"  @click="$emit('filterEvent', category)">{{category}}</button>
 </template>
 
 <!-- <script lang="ts"> -->
@@ -22,18 +22,13 @@ const props = defineProps({
   onButtonClick: Function
 });
 
-// const category = props.category!;
-// const restaurantCategories =restaurant.category!;
-
-// 
+const category = props.category!;
 
 
-// console.log(restaurant)
-
-// const sendValueToParent = () => {
-//   // Call the function passed as a prop to send the value to the parent component
-//   props.onButtonClick?.(category);
-// };
+const sendValueToParent = () => {
+  // Call the function passed as a prop to send the value to the parent component
+  props.onButtonClick?.(category);
+};
 
 // const toggleBookmark = () => { restaurant.bookmark = !restaurant.bookmark; }
 
@@ -50,13 +45,19 @@ const props = defineProps({
 <style scoped>
 /* rounded-lg bg-blue-600 px-4 py-2 text-white inline-flex */
 .scroll-button {
-  min-width: 120px; 
+  /* min-width: 120px;  */
   text-align: center;
-  padding: 4px 4px;
-  background-color: orange;
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  margin-right: 10px; 
+  /* padding: 9px; */
+  /* padding-left: 1.5rem; */
+  /* padding-right: 1.5rem; */
+  /* background-color: lime; */
+  /* color: black; */
+  /* border: none; */
+  /* border-radius: 2rem; */
+  /* margin-right: 10px; */
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px;  */
+  /* border-color: black; */
+  /* height: 2.5rem; */
 }
 </style>
